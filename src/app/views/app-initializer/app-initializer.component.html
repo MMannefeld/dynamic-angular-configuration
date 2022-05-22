@@ -1,0 +1,27 @@
+<div class="content">
+  <h3 class="header">
+    Use the OpenAPI contract and APP_INITIALIZER for retrieving Data
+  </h3>
+  <div>
+    <h3>Received Data from the Config (APP_INITIALIZER)</h3>
+    <div class="data-row">
+      <div class="desc">envHeaderAppInitializer:</div>
+      <div>{{ envHeaderAppInitializer }}</div>
+    </div>
+    <div class="data-row">
+      <div class="desc">baseUrlAppInitializer:</div>
+      <div>{{ baseUrlAppInitializer }}</div>
+    </div>
+  </div>
+  <div>
+    <h3>Received Data from the API</h3>
+    <div class="data-row">
+      <div class="desc">title:</div>
+      <div>{{ dataFromAPI?.title }}</div>
+    </div>
+    <div class="data-row">
+      <div class="desc">id:</div>
+      <div>{{ dataFromAPI?.id }}</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+.content {
+  padding: 10px;
+}
+
+.data-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2px 0;
+}
+
+.desc {
+  font-weight: bold;
+  margin-right: 10px;
+  width: 12rem;
+}
+
+h2.mt {
+  margin-top: 10px;
+}
+
+h3.header {
+  font-weight: bold;
+}

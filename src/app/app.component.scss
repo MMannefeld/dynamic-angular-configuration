@@ -1,0 +1,33 @@
+mat-toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.nav-entry {
+  padding: 10px;
+  font-size: 0.75rem;
+}
+
+.nav-entry:hover {
+  cursor: pointer;
+}
+
+a {
+  color: grey;
+  font-size: 0.75rem;
+}
+
+.nav-entry > a {
+  text-decoration: none;
+}
+
+.active {
+  color: white;
+  font-size: 1rem;
+}

@@ -1,0 +1,22 @@
+{
+  "environment-ts-dev": {
+    "title": "Environment.ts - Development",
+    "id": 11
+  },
+  "environment-ts-prod": {
+    "title": "Environment.ts - Production",
+    "id": 22
+  },
+  "env-vars-angular": {
+    "title": "Environment variables for Angular",
+    "id": 33
+  },
+  "openapi-contract": {
+    "title": "Use the OpenAPI contract for Angular",
+    "id": 44
+  },
+  "app-initializer": {
+    "title": "Use the APP_INITIALIZER for Angular",
+    "id": 55
+  }
+}

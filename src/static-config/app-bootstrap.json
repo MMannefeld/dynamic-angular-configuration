@@ -1,0 +1,5 @@
+{
+  "envHeaderAppBootstrap": "APP_BOOTSTRAP is active",
+  "dataUrlAppBootstrap": "http://localhost:5000/data",
+  "baseUrlAppBootstrap": "http://localhost:5000"
+}

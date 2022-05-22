@@ -1,0 +1,63 @@
+openapi: 3.0.3
+info:
+  title: 'GET_DATA_V1'
+  description: |
+    Test API - 1
+  version: 0.0.1
+servers:
+  - url: "{protocol}://{hostname}"
+    variables:
+      protocol:
+        default: https
+        enum:
+          - http
+          - https
+        description: Test API - 1
+      hostname:
+        default: "local-test-env:9999"
+        description: Test API - 1 Hostname (and optional port)
+
+tags:
+  - name: data-1
+paths:
+  /openapi-contract:
+    get:
+      operationId: getOpenApiContract
+      tags: [ data-1 ]
+      responses:
+        '200':
+          description: Data1
+          content:
+            'application/json':
+              schema:
+                $ref: '#/components/schemas/Data1'
+  /app-initializer:
+    get:
+      operationId: getAppInitializer
+      tags: [ data-1 ]
+      responses:
+        '200':
+          description: Data1
+          content:
+            'application/json':
+              schema:
+                $ref: '#/components/schemas/Data1'
+
+components:
+
+  schemas:
+    # parameter objects
+    Data1:
+      description: ''
+      type: object
+      properties:
+        title:
+          type: string
+        id:
+          type: integer
+      required:
+        - title
+        - id
+
+
+

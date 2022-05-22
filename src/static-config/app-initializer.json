@@ -1,0 +1,4 @@
+{
+  "envHeaderAppInitializer": "APP_INITIALIZER is active",
+  "baseUrlAppInitializer": "http://localhost:5000"
+}
